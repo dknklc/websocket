@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: websocket
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: dekan
+      password: s3cret
+      database: chat_app
+      authentication-database: admin
